@@ -1,0 +1,370 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:link, a:visited, a:hover, a:link:active, a:visited:active {
+    color: inherit;
+    outline: 0;
+    text-decoration: none;
+}
+
+.imgscale {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+    clear: both;
+}
+
+.rounded-five {
+    border-radius: 5px;
+}
+
+.ninesixty-container{
+    max-width: 900px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.25);
+}
+
+.nav-container {
+    max-width: 960px;
+    padding: 25px 30px 0px 25px;
+/*    background-color: aquamarine;*/
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-content {
+    width: 90px;
+    padding: 0;
+    margin-left: 5px;
+    padding-bottom: 11px;
+    padding-top: 1px;
+    display: inline-block;
+    list-style: none;
+    float: right;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.27px;
+}
+
+.nav-content a {
+    color: inherit;
+    transition: color .2s linear;
+    text-decoration: none;
+}
+
+.nav-content a:hover {
+    color: #10293F;
+    text-decoration: none;
+}
+
+.nav-content.active {
+    border-bottom: 2px solid #F8B744;
+    font-weight: 600;
+    color: #
+}
+
+.home-feature {
+    width: 100%;
+    min-height: 490px;
+    background-image: url(../img/funghi-header.jpg);
+    background-size: cover;
+    background-position: center center;
+    -webkit-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+}
+
+.feature-text-container {
+    display: inline-block;
+    max-width: 420px;
+    margin-top: 80px;
+}
+
+.featured-project {
+    margin: 0;
+    font-family: Lora, serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.12px;
+}
+
+.feature-line {
+    margin-top: 6px;
+    margin-bottom: 15px;
+    max-width: 160px;
+    height: 1px;
+}
+
+.featured-project-title {
+    margin: 0;
+    padding: 0;
+    max-width: 330px;
+    font-family: Lora, serif;
+    font-size: 55px;
+    letter-spacing: 0.38px;
+    line-height: 1.3;
+    margin-bottom: 9px;
+}
+
+.featured-project-description {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.18px;
+    margin-bottom: 25px;
+}
+
+.featured-btn {
+    margin: 0;
+    border: 2px;
+    border-style: solid;
+    border-color: #10293F;
+    border-radius: 2em;
+    max-width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    font-size: 18px;
+    color: #10293F;
+    letter-spacing: 0.17px;
+    background-color: none;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.featured-btn:hover {
+    color: white;
+    background-color: #10293F;
+}
+
+.home-bio {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bio-text-panel {
+    display: inline-block;
+    vertical-align: top;
+/*    max-width: 495px;*/
+    width: 50%;
+    margin-top: 32px;
+}
+
+.home-bio-image {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+/*    width: 25%;*/
+    height: auto;
+    float: right;
+}
+
+.name-bio {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.sub-bio {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home-bio-divider {
+    height: 1px;
+    max-width: 100%;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.description-bio {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.bio-seperator {
+    width: 18%;
+}
+
+.project-btn {
+    margin: 0;
+    padding: 0;
+    border: 2px;
+    border-style: solid;
+    border-color: #10293F;
+    border-radius: 2em;
+    max-width: 182px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    font-size: 15px;
+    color: #10293F;
+    letter-spacing: 0.17px;
+    background-color: none;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.project-btn:hover {
+    color: white;
+    background-color: #10293F;
+}
+
+.home-projects {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-recent {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.recent-underline {
+    width: 180px;
+    height: 2px;
+    background-color: #10293F;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.left-recent {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 47%;
+    float: left;
+    margin-bottom: 65px;
+}
+
+.right-recent {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 47%;
+    float: right;
+    margin-bottom: 65px;
+}
+
+.recent-title {
+    margin: 15px 0px;
+    padding: 0;
+    text-align: left;
+}
+
+.recent-description {
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+}
+
+
+/*General text size classes used without*/
+
+.thirtytwo {
+    font-family: Lora, serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.41px;
+}
+
+.sixteen-semi {
+    font-family: 'Open sans',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #697D7F;
+    letter-spacing: 0.41px;
+}
+
+.fifteen-body {
+    font-family: 'Open sans',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.41px;
+    line-height: 1.4;
+}
+
+.fourty-title {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    letter-spacing: 0.41px;
+}
+
+.twentyeight-title {
+font-family: 'Lora', serif;
+font-size: 28px;
+letter-spacing: 0.41px;
+}
+
+/*General colours to reuse (always keep at the bottom)*/
+
+.light-grey {
+    color: #90A8B2;
+}
+
+.navy {
+    color: #10293F;
+}
+
+.yellow {
+    color: #F8B744;
+}
+
+.dark-grey {
+    color: #5F676E;
+}
+
+.blue-grey {
+    color: #697D7F;
+}
+
+.navyline {
+    background-color: #10293F;
+    opacity: 0.3;
+}
+
+.greyline {
+    background-color: #5F676E;
+}
+
+.mint-blue-bg {
+    background-color: #E6F4F3;
+}
