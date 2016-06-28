@@ -12,7 +12,14 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 .imgscale {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+/*    border-radius: 10px;*/
+}
+
+.bioscale {
+    max-width: 60%;
+    height: 50px;
+    margin-bottom: 12px;
+/*    border-radius: 10px;*/
 }
 
 .clearfix {
@@ -28,6 +35,52 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     max-width: 900px;
     padding: 0px 30px;
     margin: 0 auto;
+}
+
+.eighthundred-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sixfifty {
+    max-width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto auto;
+}
+
+.sixfifty-body {
+    max-width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto auto;
+    margin-bottom: 25px;
+/*    text-align: center;*/
+}
+
+.sixfifty-body.last {
+    margin-bottom: 0px;
+}
+
+.centered-btn {
+    margin: auto auto;
+}
+
+.title-underline {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: 170px;
+    height: 2px;
+    background-color: #F8B744;
+}
+
+.paragraph-spacer {
+    height: 25px;
+}
+
+.section-spacer {
+    height: 50px;
 }
 
 .navigation {
@@ -94,6 +147,17 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     background-image: url(../img/funghi-header.jpg);
     background-size: cover;
     background-position: center center;
+    -webkit-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+}
+
+.bio-feature {
+    width: 100%;
+    min-height: 490px;
+    background-image: url(../img/bio-header-overlay.jpg);
+    background-size: cover;
+    background-position: left 25%;
     -webkit-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
     -moz-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
     box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
@@ -244,6 +308,14 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     background-color: #10293F;
 }
 
+.centered-btn {
+    margin: auto auto;
+}
+
+.lrgbtn {
+    max-width: 325px;
+}
+
 .home-projects {
     margin: 0;
     padding: 0;
@@ -296,11 +368,113 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     padding: 0;
 }
 
+.footer {
+    margin: 0;
+    width: 100%;
+    background-color: #10293F;
+    min-height: 100px;
+    padding-top: 40px;
+}
+
+.social-footer {
+    width: 100%;
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-block;
+    max-width: 35px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    opacity: 1;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.social-icon:hover {
+    opacity: 0.6;
+}
+
+.footer-text {
+    display: block;
+    margin: 0;
+    margin-top: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0.41px;
+}
+
+a.cclink {
+    border-bottom: 1px solid white;
+}
+
+.bio-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.section-title {
+    margin: 0;
+    padding: 0;
+}
+
+.exp-title {
+    margin: 0;
+    padding: 0;
+}
+
+.exp-subs {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+.recent-sm-margin {
+    margin-bottom: 50px;
+}
+
+.cv-btn {
+    margin: 0;
+    border: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 2em;
+    max-width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    font-size: 18px;
+    color: #10293F;
+    letter-spacing: 0.17px;
+    background-color: #FFFFFF;
+    -webkit-transition: all .3s ease-in-out;
+    
+}
+
+.cv-btn:hover {
+    color: white;
+    background-color: #10293F;
+    border-color: #10293F;
+}
+
+.bio-logos {
+
+}
+
+
+
 
 /*General text size classes used without*/
 
 .thirtytwo {
-    font-family: Lora, serif;
+    font-family: 'Lora', serif;
     font-size: 32px;
     font-weight: 400;
     letter-spacing: 0.41px;
@@ -311,6 +485,14 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     font-size: 16px;
     font-weight: 600;
     color: #697D7F;
+    letter-spacing: 0.41px;
+}
+
+.fourteen-italic {
+    font-family: 'Open sans',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
     letter-spacing: 0.41px;
 }
 
@@ -329,9 +511,24 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 }
 
 .twentyeight-title {
-font-family: 'Lora', serif;
-font-size: 28px;
-letter-spacing: 0.41px;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    letter-spacing: 0.41px;
+}
+
+.thirtytwo-title {
+    font-family: 'lora', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.41px;
+    text-align: center;
+}
+
+.twenty-subtitle {
+    font-family: 'lora', serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.41px;
 }
 
 /*General colours to reuse (always keep at the bottom)*/
@@ -354,6 +551,11 @@ letter-spacing: 0.41px;
 
 .blue-grey {
     color: #697D7F;
+}
+
+.white-shadow {
+    color: white;
+    text-shadow: 0px 0px 10px #10293F;
 }
 
 .navyline {
