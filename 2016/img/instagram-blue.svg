@@ -6,7 +6,17 @@
 <title>instagram-01</title>
 <desc>Created with Sketch.</desc>
 <g>
-	<path fill="#FFFFFF" d="M15,2.703c4.005,0,4.479,0.015,6.062,0.087c1.462,0.066,2.257,0.311,2.785,0.516
+	<radialGradient id="SVGID_1_" cx="0.5" cy="29.75" r="39.9515" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#F9ED32"/>
+		<stop  offset="0.6722" style="stop-color:#EE2A7B"/>
+		<stop  offset="0.7016" style="stop-color:#E42A81"/>
+		<stop  offset="0.752" style="stop-color:#C92A90"/>
+		<stop  offset="0.8171" style="stop-color:#9C2AA8"/>
+		<stop  offset="0.8945" style="stop-color:#5F2ACA"/>
+		<stop  offset="0.9814" style="stop-color:#122AF5"/>
+		<stop  offset="1" style="stop-color:#002AFF"/>
+	</radialGradient>
+	<path fill="url(#SVGID_1_)" d="M15,2.703c4.005,0,4.479,0.015,6.062,0.087c1.462,0.066,2.257,0.311,2.785,0.516
 		c0.7,0.272,1.2,0.598,1.725,1.122c0.525,0.525,0.85,1.025,1.122,1.725c0.205,0.528,0.45,1.323,0.517,2.785
 		c0.072,1.582,0.087,2.056,0.087,6.061c0,4.006-0.015,4.479-0.087,6.062c-0.066,1.463-0.312,2.257-0.517,2.785
 		c-0.272,0.7-0.597,1.2-1.122,1.725c-0.524,0.525-1.024,0.851-1.725,1.122c-0.528,0.206-1.323,0.45-2.785,0.517
@@ -22,8 +32,28 @@
 		c0.37-0.954,0.624-2.045,0.697-3.642C29.982,19.585,30,19.074,30,15c0-4.074-0.018-4.584-0.09-6.184
 		c-0.073-1.597-0.327-2.687-0.697-3.641c-0.384-0.986-0.896-1.823-1.73-2.657c-0.834-0.834-1.671-1.347-2.657-1.73
 		c-0.954-0.371-2.044-0.624-3.641-0.697C19.585,0.018,19.074,0,15,0L15,0z"/>
-	<path fill="#FFFFFF" d="M15,7.297c-4.254,0-7.703,3.449-7.703,7.703s3.449,7.703,7.703,7.703s7.702-3.449,7.702-7.703
+	<radialGradient id="SVGID_2_" cx="0.5" cy="29.75" r="39.9515" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#F9ED32"/>
+		<stop  offset="0.6722" style="stop-color:#EE2A7B"/>
+		<stop  offset="0.7016" style="stop-color:#E42A81"/>
+		<stop  offset="0.752" style="stop-color:#C92A90"/>
+		<stop  offset="0.8171" style="stop-color:#9C2AA8"/>
+		<stop  offset="0.8945" style="stop-color:#5F2ACA"/>
+		<stop  offset="0.9814" style="stop-color:#122AF5"/>
+		<stop  offset="1" style="stop-color:#002AFF"/>
+	</radialGradient>
+	<path fill="url(#SVGID_2_)" d="M15,7.297c-4.254,0-7.703,3.449-7.703,7.703s3.449,7.703,7.703,7.703s7.702-3.449,7.702-7.703
 		S19.254,7.297,15,7.297z M15,20c-2.762,0-5-2.238-5-5c0-2.761,2.238-5,5-5s5,2.239,5,5C20,17.762,17.762,20,15,20z"/>
-	<circle fill="#FFFFFF" cx="23.007" cy="6.993" r="1.8"/>
+	<radialGradient id="SVGID_3_" cx="0.5" cy="29.75" r="39.9515" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#F9ED32"/>
+		<stop  offset="0.6722" style="stop-color:#EE2A7B"/>
+		<stop  offset="0.7016" style="stop-color:#E42A81"/>
+		<stop  offset="0.752" style="stop-color:#C92A90"/>
+		<stop  offset="0.8171" style="stop-color:#9C2AA8"/>
+		<stop  offset="0.8945" style="stop-color:#5F2ACA"/>
+		<stop  offset="0.9814" style="stop-color:#122AF5"/>
+		<stop  offset="1" style="stop-color:#002AFF"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_3_)" cx="23.007" cy="6.993" r="1.8"/>
 </g>
 </svg>
