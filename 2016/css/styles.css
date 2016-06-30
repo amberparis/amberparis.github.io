@@ -3,7 +3,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a:link, a:visited, a:hover, a:link:active, a:visited:active {
+a:link, a:visited, a:hover, a:link:active, a:visited:active, a:focus {
     color: inherit;
     outline: 0;
     text-decoration: none;
@@ -12,6 +12,8 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 .imgscale {
     width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
 /*    border-radius: 10px;*/
 }
 
@@ -62,6 +64,21 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     margin-bottom: 0px;
 }
 
+.contact-social-body {
+    max-width: 251px;
+/*
+    padding-left: 20px;
+    padding-right: 20px;
+*/
+    margin: auto auto;
+    margin-bottom: 25px;
+/*    text-align: center;*/
+}
+
+.centered-text {
+    text-align: center;
+}
+
 .centered-btn {
     margin: auto auto;
 }
@@ -91,7 +108,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 }
 
 .nav-container {
-    max-width: 960px;
+    max-width: 900px;
     padding: 25px 30px 0px 25px;
 /*    background-color: aquamarine;*/
     margin: 0 auto;
@@ -124,13 +141,13 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     letter-spacing: 0.27px;
 }
 
-.nav-content a {
+.nav-content {
     color: inherit;
     transition: color .2s linear;
     text-decoration: none;
 }
 
-.nav-content a:hover {
+.nav-content:hover {
     color: #10293F;
     text-decoration: none;
 }
@@ -152,10 +169,32 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
 }
 
+.portfolio-feature {
+    width: 100%;
+    min-height: 490px;
+    background-image: url(../img/funghi-header-portfolio-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    -webkit-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+}
+
 .bio-feature {
     width: 100%;
     min-height: 490px;
     background-image: url(../img/bio-header-overlay.jpg);
+    background-size: cover;
+    background-position: left 25%;
+    -webkit-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+    box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
+}
+
+.contact-feature {
+    width: 100%;
+    min-height: 490px;
+    background-image: url(../img/contact-header-bright.jpg);
     background-size: cover;
     background-position: left 25%;
     -webkit-box-shadow: inset 0px 4px 6px rgba(0,0,0,0.25);
@@ -468,8 +507,179 @@ a.cclink {
 
 }
 
+.contact-icon {
+    width: 32px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.twitter-embed {
+    margin-top: 50px;
+    text-align: center;
+}
 
 
+/*Contact Form Begin*/
+
+.contact-form {
+    display: block;
+    max-width: 600px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+:-moz-placeholder {
+    color: grey;
+}
+ 
+::-webkit-input-placeholder {
+    color: grey;
+}
+
+*:focus {
+    outline: none;
+}
+
+#txt {
+    -webkit-transition: width .25s;
+    transition: width .25s;
+    width: 80%;
+    border-radius:5px; 
+    border: solid 1px #ccc; 
+    padding:8px;
+    margin-bottom: 20px;
+    background-color: white; 
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(95, 97, 101, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#txt:hover {
+    width:83%;
+}
+
+#txt:focus {
+    box-shadow: inset 0 2px 6px rgba(34,170,255,0.3);
+    width: 88%;
+    background-color: white;
+}
+
+*:required {
+    background: url(../img/required.svg) no-repeat 100% center;
+}
+
+#mail:focus:invalid {
+    background: url(../img/invalid.svg) no-repeat 100% center;
+    background-color: white;
+}
+
+#mail:valid {
+    background: url(../img/f-valid.svg) no-repeat 100% center;
+    background-color: white;
+}
+
+#txt:focus:invalid {
+    background: url(../img/invalid.svg) no-repeat 100% center;
+    background-color: white;
+}
+
+#txt:required:valid {
+    background: url(../img/f-valid.svg) no-repeat 100% center;
+    background-color: white;
+}
+
+#longtxt:focus:invalid {
+    background: url(../img/invalid.svg) no-repeat 100% center;
+    background-color: white;
+}
+
+#longtxt:required:valid {
+    background: url(../img/f-valid.svg) no-repeat 100% center;
+    background-color: white;
+}
+#mail {
+    -webkit-transition: width .25s;
+    transition: width .25s;
+    width: 80%;
+    border-radius:5px; 
+    border: solid 1px #ccc; 
+    padding:8px;
+    margin-bottom: 20px;
+    background-color: white; 
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(95, 97, 101, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#mail:hover {
+    width:83%;
+}
+
+#mail:focus {
+    box-shadow: inset 0 2px 6px rgba(34,170,255,0.3);
+    width: 88%;
+}
+
+#longtxt {
+    -webkit-transition: width .25s;
+    transition: width .25s;
+    width: 80%;
+    resize: vertical;
+    border-radius:5px; 
+    border: solid 1px #ccc; 
+    padding:8px;
+    margin-bottom: 20px;
+    background-color: white; 
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(95, 97, 101, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#longtxt:hover {
+    width:83%;
+}
+
+#longtxt:focus {
+    box-shadow: inset 0 2px 6px rgba(34,170,255,0.3);
+    width: 88%;
+    background-color: white;
+}
+
+.send {
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    width: 170px; 
+    padding:8px;
+    margin-bottom: 20px;
+    background-color: #10293F;
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,.7);
+    border-radius: 10em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.send:hover {
+    width: 190px;
+}
+
+.send:active {
+    background-color: #78B142;
+}
+
+/*Contact Form End*/
 
 /*General text size classes used without*/
 
@@ -531,6 +741,15 @@ a.cclink {
     letter-spacing: 0.41px;
 }
 
+.body-link {
+    color: inherit;
+    transition: color .2s linear;
+}
+
+.body-link:hover {
+    color: #10293F;
+}
+
 /*General colours to reuse (always keep at the bottom)*/
 
 .light-grey {
@@ -569,4 +788,8 @@ a.cclink {
 
 .mint-blue-bg {
     background-color: #E6F4F3;
+}
+
+.invisible {
+    opacity: 0;
 }
